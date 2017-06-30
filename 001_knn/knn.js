@@ -5,6 +5,9 @@ function KNN(kSize){
 	this.points = [];
 }
 
-
+KNN.prototype.train = function(pts){
+  if (!this.points.length) this.points = pts
+  else
+}
 
 module.exports = KNN
